@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware } from 'redux'
 import rootReducer from './rootReducer'
-import logger from 'redux-logger'
+import { logger } from 'redux-logger'
 
 //the logger middleware intercepts the states and actions, telling us on the console.log what is the previous state, 
 //the action called and finally the next state, after the action dispatch. 
